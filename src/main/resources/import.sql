@@ -1,0 +1,10 @@
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Juan', 'Pérez', 'Av. La marina', '555-1234');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Ana', 'López', 'Avenida Primavera 456', '555-5678');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Luis', 'García', 'Ronda de Nelle 789', '555-9012');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Sofía', 'Martín', 'Gran Vía 1011', '555-3456');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Carlos', 'Sánchez', 'Diagonal 1213', '555-7890');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Marta', 'Ramírez', 'Paseo de la republica 1415', '555-2345');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Hector', 'Gómez', 'Calle Libertad 1617', '555-6789');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Laura', 'Blanco', 'Avenida de América 1819', '555-0123');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Roberto', 'Fernández', 'Plaza Mayor 2021', '555-4567');
+INSERT INTO persona (nombre, apellido, direccion, telefono) VALUES ('Patricia', 'Morales', 'Calle Nueva 2223', '555-8901');
