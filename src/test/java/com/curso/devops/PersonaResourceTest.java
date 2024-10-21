@@ -59,18 +59,20 @@ public class PersonaResourceTest {
     }
 
 
-//    @Test
-//    void testGetPersonaById() {
-//        given()
-//                .when().get("/persona/api?id=11")
-//                .then()
-//                .statusCode(200)
-//                .body("id", is(11),
-//                        "nombre", is("Wilder"),
-//                        "apellido", is("Guizado Romero"),
-//                        "direccion", is("S.J.M"),
-//                        "telefono", is("999999999"));
-//    }
+    @Test
+    void testGetPersonaById() {
+        int personaId = 10;
+        given()
+                .queryParam("id", personaId)
+                .when().get("/persona/api")
+                .then()
+                .statusCode(200)
+                .body("id", is(personaId),
+                        "nombre", is("Patricia"),
+                        "apellido", is("Morales"),
+                        "direccion", is("Calle Nueva 2223"),
+                        "telefono", is("555-8901"));
+    }
 
 
     @Test
